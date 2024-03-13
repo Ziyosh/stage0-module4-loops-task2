@@ -8,8 +8,8 @@ public class PrimeNumbers {
         while (i<=printToInclusive){
             if(printToInclusive%i == 0){
                 System.out.println(i);
-                i++;
             }
+            i++;
         }
     }
 }
